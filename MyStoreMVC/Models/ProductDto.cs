@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyStoreMVC.Models
 {
-    public class ProductsDto
+    public class ProductDto
     {
         [Required, MaxLength(100)]
         public string Name { get; set; } = "";
